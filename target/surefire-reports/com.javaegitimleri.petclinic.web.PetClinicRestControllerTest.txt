@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.javaegitimleri.petclinic.web.PetClinicRestControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 15.84 sec <<< FAILURE! - in com.javaegitimleri.petclinic.web.PetClinicRestControllerTest
+TestGetOwners(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 3.563 sec  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.TestGetOwners(PetClinicRestControllerTest.java:100)
+
+testDeleteOwner(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 3.073 sec  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testDeleteOwner(PetClinicRestControllerTest.java:35)
+
+testCreateOwner(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 0.05 sec  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException: 400 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testCreateOwner(PetClinicRestControllerTest.java:67)
+
+testOwnerUpdate(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 3.021 sec  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testOwnerUpdate(PetClinicRestControllerTest.java:45)
+
+testGetOwnersByLastName(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 3.023 sec  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnersByLastName(PetClinicRestControllerTest.java:85)
+
+testGetOwnerById(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 3.029 sec  <<< ERROR!
+org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnerById(PetClinicRestControllerTest.java:76)
+

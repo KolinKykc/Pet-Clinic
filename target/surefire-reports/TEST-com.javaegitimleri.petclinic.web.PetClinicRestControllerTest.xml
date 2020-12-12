@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="15.84" tests="6" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.boot.library.path" value="C:\Users\kolin\Downloads\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kolin\Desktop\PetClinic"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kolin\Desktop\PetClinic"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kolin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\kolin\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\petclinic\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16544256448839463611.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Users\kolin\Downloads\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/kolin/Downloads/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin/server;C:/Users/kolin/Downloads/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin;C:\Python27\;C:\Python27\Scripts;C:\app\kolin\product\18.0.0\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\kolin\Desktop\KOLİNİVİRZİVİR\sql server\sqldeveloper\jdk\jdk-11.0.2\bin;C:\Users\kolin\Desktop\kolinstaj\apache-maven-3.6.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u262-b10\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\kolin\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\kolin\AppData\Local\Programs\Python\Python36-32\;C:\Users\kolin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin;C:\Users\kolin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kolin\AppData\Local\GitHubDesktop\bin;C:\Users\kolin\Desktop\kolinstaj\apache-maven-3.6.1;C:\Windows\System32;C:\Users\kolin\AppData\Local\Microsoft\WindowsApps;C:\Users\kolin\AppData\Local\Yarn\bin;C:\Users\kolin\AppData\Local\Android\Sdk\platform-tools;C:\Users\kolin\AppData\Roaming\npm;C:\Users\kolin\.dotnet\tools;C:\Users\kolin\.dotnet\tools;C:\Users\kolin\Downloads\sts-4.8.1.RELEASE;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kolin"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="kolin"/>
+    <property name="java.class.path" value="C:\Users\kolin\Downloads\sts-4.8.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -Dstyle.color=always"/>
+    <property name="java.home" value="C:\Users\kolin\Downloads\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\kolin\Desktop\PetClinic\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TestGetOwners" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="3.563">
+    <error message="500 null" type="org.springframework.web.client.HttpServerErrorException">org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.TestGetOwners(PetClinicRestControllerTest.java:100)
+</error>
+    <system-out><![CDATA[16:08:14.717 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owners"
+16:08:14.739 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:17.780 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owners" resulted in 500 (null); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteOwner" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="3.073">
+    <error message="500 null" type="org.springframework.web.client.HttpServerErrorException">org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testDeleteOwner(PetClinicRestControllerTest.java:35)
+</error>
+    <system-out><![CDATA[16:08:17.794 [main] DEBUG org.springframework.web.client.RestTemplate - Created DELETE request for "http://localhost:8080/rest/owner/1"
+16:08:17.799 [main] DEBUG org.springframework.web.client.RestTemplate - DELETE request for "http://localhost:8080/rest/owner/1" resulted in 200 (null)
+16:08:17.800 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owner/1"
+16:08:17.842 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:20.863 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owner/1" resulted in 500 (null); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateOwner" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="0.05">
+    <error message="400 null" type="org.springframework.web.client.HttpClientErrorException">org.springframework.web.client.HttpClientErrorException: 400 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testCreateOwner(PetClinicRestControllerTest.java:67)
+</error>
+    <system-out><![CDATA[16:08:20.874 [main] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:8080/rest/owner"
+16:08:20.890 [main] DEBUG org.springframework.web.client.RestTemplate - Writing [Owner [id=null, firstName=Araks, lastName=Kykc]] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38831718]
+16:08:20.909 [main] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:8080/rest/owner" resulted in 201 (null)
+16:08:20.909 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owner/"
+16:08:20.910 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:20.915 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owner/" resulted in 400 (null); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="testOwnerUpdate" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="3.021">
+    <error message="500 null" type="org.springframework.web.client.HttpServerErrorException">org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testOwnerUpdate(PetClinicRestControllerTest.java:45)
+</error>
+    <system-out><![CDATA[16:08:20.919 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owner/3"
+16:08:20.920 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:23.936 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owner/3" resulted in 500 (null); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="testGetOwnersByLastName" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="3.023">
+    <error message="500 null" type="org.springframework.web.client.HttpServerErrorException">org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnersByLastName(PetClinicRestControllerTest.java:85)
+</error>
+    <system-out><![CDATA[16:08:23.941 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owner?ln=kykc"
+16:08:23.942 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:26.960 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owner?ln=kykc" resulted in 500 (null); invoking error handler
+]]></system-out>
+  </testcase>
+  <testcase name="testGetOwnerById" classname="com.javaegitimleri.petclinic.web.PetClinicRestControllerTest" time="3.029">
+    <error message="500 null" type="org.springframework.web.client.HttpServerErrorException">org.springframework.web.client.HttpServerErrorException: 500 null
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnerById(PetClinicRestControllerTest.java:76)
+</error>
+    <system-out><![CDATA[16:08:26.964 [main] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/rest/owner/1"
+16:08:26.965 [main] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+16:08:29.989 [main] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/rest/owner/1" resulted in 500 (null); invoking error handler
+]]></system-out>
+  </testcase>
+</testsuite>
