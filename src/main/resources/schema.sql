@@ -1,20 +1,18 @@
-CREATE TABLE public.t_owner(
+CREATE TABLE PUBLIC.T_OWNER(
+    ID BIGINT NOT NULL,
+    FIRST_NAME VARCHAR(255),
+    LAST_NAME VARCHAR(255)
+);            
+ALTER TABLE PUBLIC.T_OWNER ADD CONSTRAINT PUBLIC.CONSTRAINT_1 PRIMARY KEY(ID);
 
-id bigint NOT null,
-first_name varchar(255),
-last_name varchar(255)
-);
+CREATE TABLE PUBLIC.T_PET(
+    ID BIGINT NOT NULL,
+    NAME VARCHAR(255),
+    BIRTH_DATE DATE,
+    OWNER_ID BIGINT
+);            
+ALTER TABLE PUBLIC.T_PET ADD CONSTRAINT PUBLIC.CONSTRAINT_2 PRIMARY KEY(ID);
 
-CREATE TABLE public.t_pet(
+ALTER TABLE PUBLIC.T_PET ADD  CONSTRAINT public.CONSTRAINT_3 FOREIGN KEY(OWNER_ID)  REFERENCES PUBLIC.T_OWNER(ID);
 
-id bigint NOT null,
-name varchar(255),
-birth_date date,
-owner_id bigint,
-
-);
-
-ALTER TABLE public.t_owner ADD CONSTRAINT public.CONSTRAINT_1 PRIMARY key(id);
-ALTER TABLE public.t_pet ADD CONSTRAINT public.CONSTRAINT_2 PRIMARY key(id);
-ALTER TABLE public.t_pet ADD CONSTRAINT public.constraint_3 FOREIGN key(owner_id) referances public.t_owner(id) ;
-CREATE sequance public.petclinic_sequence START WITH 100;
+CREATE SEQUENCE PUBLIC.PETCLINIC_SEQUENCE START WITH 100;

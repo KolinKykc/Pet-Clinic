@@ -11,6 +11,7 @@ import java.util.List;
 @Service
 public class PetClinicServiceImpl implements PetClinicService {
 
+	@Autowired
     private OwnerRepository ownerRepository;
 
     @Autowired
